@@ -1,0 +1,22 @@
+PODS:
+  - AWSCognito (2.6.15):
+    - AWSCore (= 2.6.15)
+  - AWSCore (2.6.15)
+  - AWSS3 (2.6.15):
+    - AWSCore (= 2.6.15)
+  - SSZipArchive (2.1.2)
+
+DEPENDENCIES:
+  - AWSCognito
+  - AWSS3
+  - SSZipArchive
+
+SPEC CHECKSUMS:
+  AWSCognito: 5aab600f32961d6a69598a14dab1312cbab7228d
+  AWSCore: 4a19c5635b3b9dcacec4d8dab835c2f6375a6fdb
+  AWSS3: d3831638f91e7cba50b1fb2d8d82161c60a92dfe
+  SSZipArchive: d4009d2ce5520a421f231fd97028cc0e2667eed8
+
+PODFILE CHECKSUM: 6416341a10f0c4072c65b9bd565f717a0374e1f2
+
+COCOAPODS: 1.4.0

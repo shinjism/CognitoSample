@@ -1,0 +1,6 @@
+framework module Pods_CognitoSample {
+  umbrella header "Pods-CognitoSample-umbrella.h"
+
+  export *
+  module * { export * }
+}
