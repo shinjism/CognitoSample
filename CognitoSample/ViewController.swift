@@ -12,7 +12,7 @@ import AWSS3
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var sendButton: UIButton!
+    @IBOutlet weak var uploadButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,7 +24,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    @IBAction func onTappedSendButton(_ sender: UIButton) {
+    @IBAction func onTappedUploadButton(_ sender: UIButton) {
         // Documentsディレクトリ絶対パス
         let documentDir = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0] as NSString
         // アーカイブファイル名
