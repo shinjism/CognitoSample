@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  CognitoSample
-//
-//  Created by Shinji Hayai on 2018/04/29.
-//  Copyright © 2018年 Shinji Hayai. All rights reserved.
-//
-
 import UIKit
 import AWSCognito
 
